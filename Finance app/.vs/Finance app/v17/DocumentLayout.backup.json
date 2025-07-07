@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ASP.net projects\\Finance app\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{21B50CFD-5CC8-49A9-AF8A-63C1B9E6EF0D}|Finance app\\Finance app.csproj|d:\\asp.net projects\\finance app\\finance app\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21B50CFD-5CC8-49A9-AF8A-63C1B9E6EF0D}|Finance app\\Finance app.csproj|solutionrelative:finance app\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Expense.cs",
+              "DocumentMoniker": "D:\\ASP.net projects\\Finance app\\Finance app\\Models\\Expense.cs",
+              "RelativeDocumentMoniker": "Finance app\\Models\\Expense.cs",
+              "ToolTip": "D:\\ASP.net projects\\Finance app\\Finance app\\Models\\Expense.cs",
+              "RelativeToolTip": "Finance app\\Models\\Expense.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAoAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T08:15:41.493Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
