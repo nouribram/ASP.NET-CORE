@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ASP.net projects\\Finance app\\",
+  "WorkspaceRootPath": "D:\\ASP.NET CORE\\Finance app\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21B50CFD-5CC8-49A9-AF8A-63C1B9E6EF0D}|Finance app\\Finance app.csproj|d:\\asp.net projects\\finance app\\finance app\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{21B50CFD-5CC8-49A9-AF8A-63C1B9E6EF0D}|Finance app\\Finance app.csproj|d:\\asp.net core\\finance app\\finance app\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21B50CFD-5CC8-49A9-AF8A-63C1B9E6EF0D}|Finance app\\Finance app.csproj|solutionrelative:finance app\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Expense.cs",
-              "DocumentMoniker": "D:\\ASP.net projects\\Finance app\\Finance app\\Models\\Expense.cs",
+              "DocumentMoniker": "D:\\ASP.NET CORE\\Finance app\\Finance app\\Models\\Expense.cs",
               "RelativeDocumentMoniker": "Finance app\\Models\\Expense.cs",
-              "ToolTip": "D:\\ASP.net projects\\Finance app\\Finance app\\Models\\Expense.cs",
+              "ToolTip": "D:\\ASP.NET CORE\\Finance app\\Finance app\\Models\\Expense.cs",
               "RelativeToolTip": "Finance app\\Models\\Expense.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAoAAABVAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-07T08:15:41.493Z",
               "EditorCaption": ""
