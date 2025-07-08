@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Finance_app.Models
+namespace FinanceApp.Models
 {
     public class Expense
     {
