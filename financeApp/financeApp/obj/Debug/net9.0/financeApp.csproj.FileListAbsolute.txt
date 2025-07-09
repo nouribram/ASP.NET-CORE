@@ -1,0 +1,9 @@
+D:\ASP.NET CORE\financeApp\financeApp\obj\Debug\net9.0\financeApp.csproj.AssemblyReference.cache
+D:\ASP.NET CORE\financeApp\financeApp\obj\Debug\net9.0\financeApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET CORE\financeApp\financeApp\obj\Debug\net9.0\financeApp.AssemblyInfoInputs.cache
+D:\ASP.NET CORE\financeApp\financeApp\obj\Debug\net9.0\financeApp.AssemblyInfo.cs
+D:\ASP.NET CORE\financeApp\financeApp\obj\Debug\net9.0\financeApp.csproj.CoreCompileInputs.cache
+D:\ASP.NET CORE\financeApp\financeApp\obj\Debug\net9.0\financeApp.MvcApplicationPartsAssemblyInfo.cache
+D:\ASP.NET CORE\financeApp\financeApp\obj\Debug\net9.0\financeApp.RazorAssemblyInfo.cache
+D:\ASP.NET CORE\financeApp\financeApp\obj\Debug\net9.0\financeApp.RazorAssemblyInfo.cs
+D:\ASP.NET CORE\financeApp\financeApp\obj\Debug\net9.0\financeApp.sourcelink.json
