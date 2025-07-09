@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "D:\\ASP.NET CORE\\Finance app\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21B50CFD-5CC8-49A9-AF8A-63C1B9E6EF0D}|Finance app\\Finance app.csproj|d:\\asp.net core\\finance app\\finance app\\data\\financeappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21B50CFD-5CC8-49A9-AF8A-63C1B9E6EF0D}|Finance app\\Finance app.csproj|solutionrelative:finance app\\data\\financeappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21B50CFD-5CC8-49A9-AF8A-63C1B9E6EF0D}|Finance app\\Finance app.csproj|d:\\asp.net core\\finance app\\finance app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21B50CFD-5CC8-49A9-AF8A-63C1B9E6EF0D}|Finance app\\Finance app.csproj|solutionrelative:finance app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21B50CFD-5CC8-49A9-AF8A-63C1B9E6EF0D}|Finance app\\Finance app.csproj|d:\\asp.net core\\finance app\\finance app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{21B50CFD-5CC8-49A9-AF8A-63C1B9E6EF0D}|Finance app\\Finance app.csproj|solutionrelative:finance app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21B50CFD-5CC8-49A9-AF8A-63C1B9E6EF0D}|Finance app\\Finance app.csproj|d:\\asp.net core\\finance app\\finance app\\finance app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{21B50CFD-5CC8-49A9-AF8A-63C1B9E6EF0D}|Finance app\\Finance app.csproj|solutionrelative:finance app\\finance app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{21B50CFD-5CC8-49A9-AF8A-63C1B9E6EF0D}|Finance app\\Finance app.csproj|d:\\asp.net core\\finance app\\finance app\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21B50CFD-5CC8-49A9-AF8A-63C1B9E6EF0D}|Finance app\\Finance app.csproj|solutionrelative:finance app\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,21 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ASP.NET CORE\\Finance app\\Finance app\\Program.cs",
-              "RelativeDocumentMoniker": "Finance app\\Program.cs",
-              "ToolTip": "D:\\ASP.NET CORE\\Finance app\\Finance app\\Program.cs",
-              "RelativeToolTip": "Finance app\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T07:07:16.501Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -55,41 +30,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\ASP.NET CORE\\Finance app\\Finance app\\appsettings.json",
-              "RelativeDocumentMoniker": "Finance app\\appsettings.json",
-              "ToolTip": "D:\\ASP.NET CORE\\Finance app\\Finance app\\appsettings.json",
-              "RelativeToolTip": "Finance app\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-08T07:04:42.054Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FinanceAppContext.cs",
-              "DocumentMoniker": "D:\\ASP.NET CORE\\Finance app\\Finance app\\Data\\FinanceAppContext.cs",
-              "RelativeDocumentMoniker": "Finance app\\Data\\FinanceAppContext.cs",
-              "ToolTip": "D:\\ASP.NET CORE\\Finance app\\Finance app\\Data\\FinanceAppContext.cs",
-              "RelativeToolTip": "Finance app\\Data\\FinanceAppContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\ASP.NET CORE\\Finance app\\Finance app\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Finance app\\Models\\User.cs",
+              "ToolTip": "D:\\ASP.NET CORE\\Finance app\\Finance app\\Models\\User.cs",
+              "RelativeToolTip": "Finance app\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T19:27:49.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Finance app.csproj",
-              "DocumentMoniker": "D:\\ASP.NET CORE\\Finance app\\Finance app\\Finance app.csproj",
-              "RelativeDocumentMoniker": "Finance app\\Finance app.csproj",
-              "ToolTip": "D:\\ASP.NET CORE\\Finance app\\Finance app\\Finance app.csproj",
-              "RelativeToolTip": "Finance app\\Finance app.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAhwBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-07T11:15:59.91Z",
+              "WhenOpened": "2025-07-09T05:03:52.751Z",
               "EditorCaption": ""
             }
           ]
