@@ -924,12 +924,29 @@ namespace CCP
 
 
              foreach(var item in odd)
+             {
+                Console.WriteLine($"{item}");
+             }
+
+
+            //Array of multiples
+
+            int num11 = 7;
+            int length = 5;
+            int[] result1 = new int[length];
+            int counter = 0;
+
+            for (int i = 1; i <= result1.Length; i++) 
+            {
+                result1[counter] = num11 * i;
+                counter++;
+            }
+
+            foreach (var item in result1) 
             {
                 Console.WriteLine($"{item}");
             }
-
-
-             //Array of multiples
+            Console.ReadLine();
 
 
 
