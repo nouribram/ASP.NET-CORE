@@ -911,7 +911,7 @@ namespace CCP
             }
 
 
-            Console.WriteLine("print even numbers");
+            Console.WriteLine("print even number");
 
 
             foreach (var item in even)
