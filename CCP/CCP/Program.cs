@@ -949,12 +949,44 @@ namespace CCP
             Console.ReadLine();
 
 
+            //void functions 
+            /*
+          bool success0 =   int.TryParse("123", out int result0);
+           
+            Console.WriteLine(success);
 
+        }*/
 
+            if(int.TryParse("123", out int result0) )
+            {
+                Console.WriteLine(result0);
+            }
 
-
-
-
-        }
     }
+
 }
+
+//class 
+/*
+class Test
+{
+    public void something()
+    {
+        Console.WriteLine();
+    }
+}*/
+
+
+//functions
+/* static void welcomeMessage()
+ {
+     Console.WriteLine("Welcome Nour");
+ }*/
+
+
+
+// 
+
+// Test test = new Test();     
+//test.something();
+//welcomeMessage();
