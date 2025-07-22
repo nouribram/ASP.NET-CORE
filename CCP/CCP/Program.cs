@@ -53,7 +53,7 @@ namespace CCP
 
             //string 
             string name = "Nour";
-            char letter =  'N';
+            char letter = 'N';
             Console.WriteLine("Your name is " + name + letter);
 
             //declare variables
@@ -62,27 +62,27 @@ namespace CCP
 
             //convert to int
             string textAge = "23";
-            int a        = Convert.ToInt32(textAge);
+            int a = Convert.ToInt32(textAge);
             Console.WriteLine(a);
 
             //convert to int64
             string textBigNumber = "-900000000000";
-            long   bigNumber     = Convert.ToInt64(textBigNumber);
+            long bigNumber = Convert.ToInt64(textBigNumber);
             Console.WriteLine(bigNumber);
 
             //convert to double
             string textNumber = "-55.43";
-            double doubleNumber   = Convert.ToDouble(textNumber);
+            double doubleNumber = Convert.ToDouble(textNumber);
             Console.WriteLine(doubleNumber);
 
             //convert to precision
-            string textPrecision    = "5.00001";
-            float  numPrecision     = Convert.ToSingle(textPrecision);
+            string textPrecision = "5.00001";
+            float numPrecision = Convert.ToSingle(textPrecision);
             Console.WriteLine(numPrecision);
 
             //convert to Decimal
             string textMoney = "14.99";
-            decimal decMoney    = Convert.ToDecimal(textMoney);
+            decimal decMoney = Convert.ToDecimal(textMoney);
             Console.WriteLine(decMoney);
 
 
@@ -133,7 +133,7 @@ namespace CCP
             {
                 Console.WriteLine("your are 25 or older");
             }
-            else if(age3 < 0 || age > 150)
+            else if (age3 < 0 || age > 150)
             {
                 Console.WriteLine("Invalid age");
             }
@@ -146,7 +146,7 @@ namespace CCP
 
             Console.Write("Enter the first number");
             string numberAInput = Console.ReadLine();
-            int numberA         = Convert.ToInt32(numberAInput);
+            int numberA = Convert.ToInt32(numberAInput);
 
             Console.Write("Enter the second number");
             string numberBInput = Console.ReadLine();
@@ -169,16 +169,16 @@ namespace CCP
 
                     Console.WriteLine("close but it is wrong!");
                 }
-               
-            } 
+
+            }
 
 
             Console.WriteLine("well done");
             Console.ReadLine();
 
-           
-            
-            
+
+
+
             // Do while loop
 
             do {
@@ -199,7 +199,7 @@ namespace CCP
             //if statement 
             Console.Write("Enter a day of the week");
             int day = Convert.ToInt32(Console.ReadLine());
-            if (day == 1) 
+            if (day == 1)
             {
                 Console.WriteLine("Sun");
             }
@@ -235,7 +235,7 @@ namespace CCP
 
             //switch statement
 
-            switch (day) 
+            switch (day)
             {
                 case 1: Console.WriteLine("Sun");
                     break;
@@ -264,7 +264,7 @@ namespace CCP
 
             //for loop + if 
 
-            for (int i = 0; i < 10; i++) 
+            for (int i = 0; i < 10; i++)
             {
                 Console.WriteLine(i);
             }
@@ -331,11 +331,11 @@ namespace CCP
 
                 string numInput = Console.ReadLine();
 
-               // int num = Convert.ToInt32(numInput);
+                // int num = Convert.ToInt32(numInput);
 
-               // Console.WriteLine(num);
+                // Console.WriteLine(num);
 
-                
+
 
                 if (int.TryParse(numInput, out int num))
                 {
@@ -358,7 +358,7 @@ namespace CCP
 
             for (int i = 0; i < 0; i++)
             {
-                Console.WriteLine("{0} x {1} = {2}", i, number, i * number  );
+                Console.WriteLine("{0} x {1} = {2}", i, number, i * number);
             }
 
             /* 
@@ -369,8 +369,8 @@ namespace CCP
              * else = number
              * 
              */
-            
-            for (int i = 1; i <= 15; i++) 
+
+            for (int i = 1; i <= 15; i++)
             {
                 if (i % 3 == 0 && i % 5 == 0)
                 {
@@ -380,7 +380,7 @@ namespace CCP
                 {
                     Console.WriteLine("Fizz");
                 }
-                else if (i % 5 == 0) 
+                else if (i % 5 == 0)
                 {
                     Console.WriteLine("Buzz");
                 }
@@ -388,7 +388,7 @@ namespace CCP
                 {
                     Console.WriteLine(i);
                 }
-                
+
             }
 
 
@@ -405,7 +405,7 @@ namespace CCP
                 fiveDiv = i % 5 == 0;
 
 
-                if (threeDiv && fiveDiv )
+                if (threeDiv && fiveDiv)
                 {
                     Console.WriteLine("FizzBuzz");
                 }
@@ -437,7 +437,7 @@ namespace CCP
             string na = "Nour";
             int g = 20;
             Console.WriteLine("Name:" + na + "\nage" + g);
-           
+
             //another way
 
             Console.WriteLine($"your name is {0}, and your age is {1}", name, age);
@@ -469,7 +469,7 @@ namespace CCP
             string msg = "Hello";
             string comp = "Hi";
 
-            if(msg == comp)
+            if (msg == comp)
             {
                 Console.WriteLine("Same");
             }
@@ -490,13 +490,13 @@ namespace CCP
             }
 
             //! not equal
-            if(!name.Equals(""))
+            if (!name.Equals(""))
             {
                 Console.WriteLine("your name is" + name);
             }
 
             // another ! not equal
-            if(name != "")
+            if (name != "")
             {
                 Console.WriteLine("your name is " + name)
             }
@@ -504,23 +504,23 @@ namespace CCP
             // array
 
             char[] chars = new char[] { 'a', 'b', 'c' };
-           
+
             object newCompare = new string(chars);
 
             if (message.Equals(newCompare))
 
-            Console.WriteLine("same");
+                Console.WriteLine("same");
 
             else
 
-            Console.WriteLine("Different");
+                Console.WriteLine("Different");
 
 
             // print char
 
             string msg1 = "Hello, Nour";
 
-            for (int i = 0; i < msg1.Length; i++) 
+            for (int i = 0; i < msg1.Length; i++)
             {
                 Console.WriteLine(msg1[i]);
                 Thread.Sleep(250); // 1000ms = 1sec - animation while typing
@@ -528,17 +528,17 @@ namespace CCP
 
             Console.WriteLine(message.Contains("C"));
 
-           
+
             bool contains = false;
 
 
             for (int i = 0; i < msg1.Length; i++)
             {
-                if (msg1[i].Equals('C')) 
+                if (msg1[i].Equals('C'))
                 {
                     contains = true;
                 }
-                else 
+                else
                 {
                     contains = false;
                 }
@@ -583,11 +583,11 @@ namespace CCP
             Console.Write("Enter password again");
             string passwordC = Console.ReadLine();
 
-            if(!password.Equals(string.Empty))
+            if (!password.Equals(string.Empty))
             {
-                if(!passwordC.Equals(string.Empty))
+                if (!passwordC.Equals(string.Empty))
                 {
-                    if(password.Length >= 6 && passwordC.Length >= 6)
+                    if (password.Length >= 6 && passwordC.Length >= 6)
                     {
                         if (password.ToLower().Equals(passwordC.ToLower())
                         {
@@ -603,7 +603,7 @@ namespace CCP
                     {
                         Console.WriteLine("please enter  6 or more charactres");
                     }
-                    
+
 
                 }
 
@@ -647,7 +647,7 @@ namespace CCP
             Console.WriteLine($"{n1}{n2}{n3}");
             Console.WriteLine($"{numbers[0]} {numbers[1]} {numbers[2]}");
 
-            for (int i = 0; i < numbers.Length; i++) 
+            for (int i = 0; i < numbers.Length; i++)
             {
                 Console.Write($"{numbers[i]}");
             }
@@ -664,7 +664,7 @@ namespace CCP
 
             int[] angles = new int[angleCount];
 
-            for (int i = 0; i < angles.Length; i++) 
+            for (int i = 0; i < angles.Length; i++)
             {
                 Console.Write($"Enter angle {i + 1}: ");
                 Convert.ToInt32(Console.ReadLine());
@@ -672,7 +672,7 @@ namespace CCP
 
             int angleSum = 0;
 
-            foreach (int angle in angles) 
+            foreach (int angle in angles)
             {
                 angleSum += angle;
             }
@@ -691,13 +691,13 @@ namespace CCP
             {
                 1,2,3,4,5,6,7,8,9
             };
-            
+
             //string test0 = "";
-           // test0.Replace("", "");
+            // test0.Replace("", "");
 
-           Array.Sort(n4);
+            Array.Sort(n4);
 
-            foreach (int num0 in n4) 
+            foreach (int num0 in n4)
             {
                 Console.WriteLine($"{num0}");
             }
@@ -716,7 +716,7 @@ namespace CCP
 
             int x0 = 0;
 
-            for(int i = numbers0.Length - 1; i >= 0; i--)
+            for (int i = numbers0.Length - 1; i >= 0; i--)
             {
                 sortedNumbers[x] = numbers0[i];
                 x++;
@@ -739,7 +739,7 @@ namespace CCP
             };
 
             // Array.Clear(numbers00, 0, numbers00.Length);
-           
+
             Array.Clear(numbers, 5, 5);
 
             /* for (int i = 0; i < numbers00.Length; i++) 
@@ -780,7 +780,7 @@ namespace CCP
 
             int position = -1;
 
-            for (int i = 0; i < sear.Length; i++) 
+            for (int i = 0; i < sear.Length; i++)
             {
                 if (num0[i] == sear)
                 {
@@ -789,7 +789,7 @@ namespace CCP
             }
 
 
-            if (position > -1) 
+            if (position > -1)
             {
                 Console.WriteLine($"Number {sear} has been found at position {position + 1}");
             }
@@ -808,7 +808,7 @@ namespace CCP
             };
 
             List<int> listNumbers = new List<int>();
-           
+
 
             for (int i = 0; i < 3; i++)
             {
@@ -816,14 +816,14 @@ namespace CCP
                 ListNumbers.Add(Convert.ToInt32(Console.ReadLine()));
             }
 
-            for(int i = 0; i < listNumbers.Count; i++)
+            for (int i = 0; i < listNumbers.Count; i++)
             {
                 Console.WriteLine(listNumbers[i]);
             }
 
             listNumbers.RemoveAt(0);
 
-            foreach (var item in listNumbers) 
+            foreach (var item in listNumbers)
             {
                 Console.WriteLine(item);
             }
@@ -844,12 +844,12 @@ namespace CCP
 
             for (int i = 0; i < nam.Count; i++)
             {
-               KeyValuePair<int, string> pair = nam.ElementAt(i);
+                KeyValuePair<int, string> pair = nam.ElementAt(i);
                 Console.WriteLine($"{pair.Key} - {pair.Value}");
 
             }
 
-            foreach(KeyValuePair<int, string> item in nam)
+            foreach (KeyValuePair<int, string> item in nam)
             {
                 Console.WriteLine($"{item.Key} - {item.Value}");
             }
@@ -861,34 +861,34 @@ namespace CCP
                 {"Science", "Test" }
             };
 
-       //     Console.WriteLine(teachers["Math"]);
-       
-         if (teachers.TryGetValue("Math", out string teacher))
-         {
+            //     Console.WriteLine(teachers["Math"]);
+
+            if (teachers.TryGetValue("Math", out string teacher))
+            {
                 Console.WriteLine(teacher);
 
                 teachers["Math"] = "Joe";
-         }
-        else
-        {
-            Console.WriteLine("Math teacher not found");
-        }
+            }
+            else
+            {
+                Console.WriteLine("Math teacher not found");
+            }
 
 
-         if(teachers.ContainsKey("Math"))
-         {
+            if (teachers.ContainsKey("Math"))
+            {
                 teachers.Remove("Math");
-         }
-        else
-        {
-            Console.WriteLine("Math not found");
-        }
+            }
+            else
+            {
+                Console.WriteLine("Math not found");
+            }
 
 
-        foreach (var item in teachers)
-        {
-            Console.WriteLine($"{item.Key} - {item.Value}");
-        }
+            foreach (var item in teachers)
+            {
+                Console.WriteLine($"{item.Key} - {item.Value}");
+            }
 
 
             // Odd/Even number split
@@ -897,9 +897,9 @@ namespace CCP
 
             List<int> even = new List<int>();
 
-            for(int i = 0; i <= 20; i++)
+            for (int i = 0; i <= 20; i++)
             {
-                if(i % 2 == 0)
+                if (i % 2 == 0)
                 {
                     even.Add(i);
                 }
@@ -923,10 +923,10 @@ namespace CCP
             Console.WriteLine(Environment.NewLine + "Printing odd numbers");
 
 
-             foreach(var item in odd)
-             {
+            foreach (var item in odd)
+            {
                 Console.WriteLine($"{item}");
-             }
+            }
 
 
             //Array of multiples
@@ -936,13 +936,13 @@ namespace CCP
             int[] result1 = new int[length];
             int counter = 0;
 
-            for (int i = 1; i <= result1.Length; i++) 
+            for (int i = 1; i <= result1.Length; i++)
             {
                 result1[counter] = num11 * i;
                 counter++;
             }
 
-            foreach (var item in result1) 
+            foreach (var item in result1)
             {
                 Console.WriteLine($"{item}");
             }
@@ -957,13 +957,24 @@ namespace CCP
 
         }*/
 
-            if(int.TryParse("123", out int result0) )
+            if (int.TryParse("123", out int result0))
             {
                 Console.WriteLine(result0);
             }
 
-    }
+            //function parameters
+           // console.writeLine();
 
+        }
+
+        /*
+           static int Add()
+           {
+              return 5 + 5;
+            }
+        */
+
+    }
 }
 
 //class 
