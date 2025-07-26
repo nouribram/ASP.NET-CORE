@@ -962,17 +962,35 @@ namespace CCP
                 Console.WriteLine(result0);
             }
 
-            //function parameters
-           // console.writeLine();
 
+            /* calculate are of triangle*/
+
+
+            Console.Write("Enter Width:");
+
+            int width = ReadInt("Enter Width:");
+
+
+            Console.Write("Enter height:");
+
+            int height = ReadInt("Enter Height:");
+
+            Console.ReadLine();
+
+            }
+
+
+
+        private static int ReadInt(string message)
+        {
+            Console.Write(message);
+
+           return Convert.ToInt32(Console.ReadLine());
         }
 
-        /*
-           static int Add()
-           {
-              return 5 + 5;
-            }
-        */
+
+
+
 
     }
 }
@@ -1001,3 +1019,9 @@ class Test
 // Test test = new Test();     
 //test.something();
 //welcomeMessage();
+
+
+
+
+
+
