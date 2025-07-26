@@ -968,10 +968,10 @@ namespace CCP
 
             Console.Write("Enter Width:");
 
-            int width = ReadInt("Enter Width:");
+            int width = ReadInt("Enter Width");
 
 
-            Console.Write("Enter height:");
+            Console.Write("Enter height");
 
             int height = ReadInt("Enter Height:");
 
